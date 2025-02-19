@@ -1,10 +1,10 @@
 # Projects in Data Science (2025)
 
-1. Exploration of the Data/ Summary of the Data:
+# 1. Exploration of the Data/ Summary of the Data:
 
-2. Annotation of the Picture:
+# 2. Annotation of the Picture:
    
-As a group we agreed to rate the various dataset based on the number of hairs that were present in the image and not solely on the lesions.
+As a group we agreed to rate the various datasets based on the number of hairs that were present on the image and not solely on the lesions.
    
  Below are some examples of data were we collectively agreed had the ssme ratings:
    
