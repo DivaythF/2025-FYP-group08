@@ -16,10 +16,11 @@ As a group we agreed to rate the various datasets based on the number of hairs t
   
  ![img_0919](https://github.com/user-attachments/assets/6992880a-4b9e-438c-9d20-fd3b4082a3ce)
  - A rating of 0 was given because there was no hair found. 
-
+                  ## Disagreement:
+   
 ![img_0925](https://github.com/user-attachments/assets/90367a09-a4d6-4bf7-8e68-04e372d1718c)
-
-- 
+ 
+-  With 
 
 
 # 4. Segmentation of the Hair
