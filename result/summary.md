@@ -25,7 +25,7 @@ As a group we agreed to rate the various datasets based on the number of hairs t
 
 
 # 4. Segmentation of the Hair
-   First Test Case:
+   ## First Test Case
    
    Original Picture:
    
