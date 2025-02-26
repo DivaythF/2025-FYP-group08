@@ -71,7 +71,14 @@ As a group we agreed to rate the various datasets based on the number of hairs t
 - The function effectively removed dark hair but struggled with white hair.
 - A drawback is the removal of darker spots on the mole, which may affect color and shape analysis.
 
-   
+## Some issues with the hair removal code
+
+For this image, we all agreed that it had no hair, but due to some skin condition, the hair removal code altered it anyway, significantly affecting the lesion itself and possibly making it impossible to accurately diagnose.
+![merged_919](https://github.com/user-attachments/assets/3928b0bd-29dd-45ed-bed8-21e4b45a76da)
+
+Also another case where it actually had a lot of hair (rating 2 by all of us). We can see that probably because the hair has similar colour with the lesion, it doesn't really remove the hair on top of it, and also seems to fuse them together.
+![merged_1116](https://github.com/user-attachments/assets/39fd7d4e-7609-4ce3-80a7-d4f665c614eb)
+
 
 
 
