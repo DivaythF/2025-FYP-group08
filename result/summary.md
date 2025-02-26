@@ -13,6 +13,9 @@ Each image has been annotated with a hair presence rating:
 2 = A lot of hair
 
 The primary goal is to develop an algorithm to remove hair from images, enabling better differentiation between cancerous and non-cancerous moulds.
+ #  Summary Statistics:
+
+ In the Jupyter file named : eda.ipynb, the statistics on the number of images we collectively agreed on as well as the disagreements are displayed. 
 
 # Image Quality & Variability:
 
