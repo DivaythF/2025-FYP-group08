@@ -27,16 +27,13 @@ As a group we agreed to rate the various datasets based on the number of hairs t
 # 4. Segmentation of the Hair
    Good Example:
    Original Picture:
-
-   Modified Picture:
    ![image](https://github.com/user-attachments/assets/989d4686-10df-409e-be98-bcfd3edd003b)
 
+   Modified Picture:
+   ![image](https://github.com/user-attachments/assets/c19813cf-3c6c-47dc-a315-5be02f060c22)
 
-
-
-
-
-
+   
+   
 
 
 
