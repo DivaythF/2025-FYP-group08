@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from util.img_util import readImageFile, saveImageFile
 from util.inpaint_util import removeHair
 
-file_path = './data/example.jpg'
-save_dir = './result'
+file_path = '../data/example.jpg'
+save_dir = '../result'
 
 # read an image file
 img_rgb, img_gray = readImageFile(file_path)
