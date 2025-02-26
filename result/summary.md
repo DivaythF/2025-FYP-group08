@@ -15,7 +15,7 @@ Each image has been annotated with a hair presence rating:
 The primary goal is to develop an algorithm to remove hair from images, enabling better differentiation between cancerous and non-cancerous moulds.
  #  Summary Statistics:
 
- In the Jupyter file named : eda.ipynb, the statistics on the number of images we collectively agreed on as well as the disagreements are displayed. 
+The group uniformly agreed on the hair annotation for 119 pictures (59.5%), with an average agreement of 89.0%. The lowest agreement was 20% for the picture img_0925.png.
 
 # Image Quality & Variability:
 
