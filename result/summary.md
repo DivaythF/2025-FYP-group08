@@ -20,13 +20,17 @@ The primary goal is to develop an algorithm to remove hair from images, enabling
 # Image Quality & Variability:
 
 The dataset contains images of varying resolutions, lighting conditions, and skin tones.
+
 Some images have darker or lighter backgrounds, which might impact segmentation models.
+
 Hair thickness and density vary across images with ratings 1 and 2.
 
 # Potential Challenges:
 
 Hair thickness variation: Some images may contain thin, scattered hair, while others have dense, overlapping hair.
+
 Skin tone variations: The effectiveness of hair removal may differ for lighter vs. darker skin tones.
+
 Low-contrast images: Some moulds blend into the skin, making segmentation harder.
 
 # 2. Annotation of the Picture:
