@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Get paths and save in some list
-imagePaths = fun.ImageDataLoader("data")._get_image_paths()
+imagePaths = fun.ImageDataLoader("../../data")._get_image_paths()
 
 # Create output directory if it doesn't exist
 output_dir = "mergedImages"

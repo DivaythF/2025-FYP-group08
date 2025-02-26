@@ -2,8 +2,7 @@ import functions as fun
 import cv2
 
 #get paths and save in some list
-imagePaths = fun.ImageDataLoader("data")._get_image_paths()
-#print(imagePaths)
+imagePaths = fun.ImageDataLoader("../../data")._get_image_paths()
 
 #loop through original images, remove hair and save in different directory
 for i in range(len(imagePaths)):
