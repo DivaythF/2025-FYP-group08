@@ -25,14 +25,21 @@ As a group we agreed to rate the various datasets based on the number of hairs t
 
 
 # 4. Segmentation of the Hair
-   Good Example:
+   First Test Case:
+   
    Original Picture:
+   
    ![image](https://github.com/user-attachments/assets/989d4686-10df-409e-be98-bcfd3edd003b)
 
    Modified Picture:
+   
    ![image](https://github.com/user-attachments/assets/c19813cf-3c6c-47dc-a315-5be02f060c22)
 
-   
+- Tested the hair removal function with this picture.
+- The original image had significant hair and was rated a two by all group members.
+- The function effectively removed dark hair but struggled with white hair.
+- A drawback is the removal of darker spots on the mole, which may affect color and shape analysis.
+
    
 
 
