@@ -37,7 +37,7 @@ Low-contrast images: Some moulds blend into the skin, making segmentation harder
    
 As a group we agreed to rate the various datasets based on the number of hairs that were present on the image and not solely on the lesions.
    
- Below are some examples of data were we collectively agreed had the ssme ratings:
+ Below are some examples of data were we collectively agreed had the same ratings:
    
   ![img_0917](https://github.com/user-attachments/assets/3e886e7e-c603-42fd-8662-dd8d6a1d2aa7)
  - We agreed that this image had a rating of 1 due to the presence of some hair.
