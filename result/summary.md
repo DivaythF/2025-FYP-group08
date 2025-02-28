@@ -94,9 +94,11 @@ For checking different effects of the parameters, we chose the picture img_0918 
 
 ### Threshold
 
-| **Threshold 5** | **Threshold 10 (original)** | **Threshold 15** |
-|-----------------|-----------------------------|------------------|
-| More hair detection (including faint hair, but still almost no detection of white hair). Picture gets more noise and this removes lesion details. <br><img width="192" alt="image" src="https://github.com/user-attachments/assets/7373eb6e-d9c4-4d14-b3f5-1069aeed0790" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/d67a49d0-517f-4fe8-8a2a-91566d45b097" /> | Less hair detection; some gray hair makes it in the picture. (Some) more lesion details. <br><img width="192" alt="image" src="https://github.com/user-attachments/assets/781fe832-cc64-47af-9f06-79b12684b922" /> |
+| **Threshold 5**                                   | **Threshold 10 (original)**                                   | **Threshold 15**                                   |
+|:-------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------:|
+| <img width="192" alt="image" src="https://github.com/user-attachments/assets/7373eb6e-d9c4-4d14-b3f5-1069aeed0790" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/d67a49d0-517f-4fe8-8a2a-91566d45b097" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/781fe832-cc64-47af-9f06-79b12684b922" /> |
+| More hair detection (including faint hair, but still almost no detection of white hair). Picture gets more noise and this removes lesion details. | (Original threshold) | Less hair detection; some gray hair makes it in the picture. (Some) more lesion details. |
+
 
 
 
