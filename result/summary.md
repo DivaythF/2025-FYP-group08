@@ -79,6 +79,19 @@ For this image, we all agreed that it had no hair, but due to some skin conditio
 Also another case where it actually had a lot of hair (rating 2 by all of us). We can see that probably because the hair has similar colour with the lesion, it doesn't really remove the hair on top of it, and also seems to fuse them together.
 ![merged_1116](https://github.com/user-attachments/assets/39fd7d4e-7609-4ce3-80a7-d4f665c614eb)
 
+## Experimenting with different Kernel, Threshold and Radius sizes
+
+For checking different effects of the parameters, we chose the picture img_0918 because it has a lot of hair to be removed, shows dark and white hair, and different colored spots on the lesion:
+<img width="192" alt="image" src="https://github.com/user-attachments/assets/bb03cf18-8176-4b92-8429-e352ee725484" />
+
+### Kernel Size
+
+| **Kernel Size 10**                                   | **Kernel Size 25**                                   | **Kernel Size 40**                                   |
+|:-----------------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
+| <img width="192" alt="image" src="https://github.com/user-attachments/assets/0e67dc11-7938-45a9-9106-0b8f837efdc9" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/48be8d7d-ffc6-4d77-b4e4-4af21fdffbda" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/c49434dc-2562-46bb-b4b3-7ff48359edd4" /> |
+| Less hair removal, shows more skin texture (could be a better method for observing the colors of the lesion). | Balanced hair removal with some smoothing (though it leaves out some color details of the lesion). | Strong hair removal (though it doesn't properly remove the white hair), with more blurring of surrounding details. |
+
+
 
 
 
