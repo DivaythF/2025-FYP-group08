@@ -90,22 +90,22 @@ For checking different effects of the parameters, we chose the picture img_0918 
 | **Kernel Size 10**                                   | **Kernel Size 25 (original)**                                   | **Kernel Size 40**                                   |
 |:-----------------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
 | <img width="192" alt="image" src="https://github.com/user-attachments/assets/0e67dc11-7938-45a9-9106-0b8f837efdc9" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/48be8d7d-ffc6-4d77-b4e4-4af21fdffbda" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/c49434dc-2562-46bb-b4b3-7ff48359edd4" /> |
-| Less hair removal, shows more skin texture (could be a better method for observing the colors of the lesion). | Balanced hair removal with some smoothing (though it leaves out some color details of the lesion). | Strong hair removal (though it doesn't properly remove the white hair), with more blurring of surrounding details. |
+| - Less hair removal, showing more skin texture (could be better for checking lesion colors). | - Balanced hair removal with some smoothing, but it doesnt show some lesion color details. | - Strong hair removal, but white hair isn’t cleared well and it blurs the surroundings. |
 
 ### Threshold
 
 | **Threshold 5**                                   | **Threshold 10 (original)**                                   | **Threshold 15**                                   |
 |:-------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------:|
 | <img width="192" alt="image" src="https://github.com/user-attachments/assets/7373eb6e-d9c4-4d14-b3f5-1069aeed0790" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/d67a49d0-517f-4fe8-8a2a-91566d45b097" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/781fe832-cc64-47af-9f06-79b12684b922" /> |
-| - More aggressive hair detection (captures faint hair, but almost no white hair). <br> - Results in a noisier image with loss of lesion details. | - Balanced hair removal with minimal artifacts. | - Less aggressive detection; some gray hair remains, preserving more lesion details. |
-
+| - Catches more hair (though almost no white hair). <br> - The image gets a bit noisy and loses some lesion details. | - Works balanced with good hair removal. | - Removes up less hair; some gray hair stays, but more lesion details are kept. |
 
 ### Radius
 
 | **Radius 1**                                   | **Radius 3 (original)**                                   | **Radius 5**                                   |
 |:-------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------:|
 | <img width="192" alt="image" src="https://github.com/user-attachments/assets/55348ff6-770a-4bb4-bc77-d16ce98a7212" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/f4ebe0b6-ff83-4a18-b116-2f4fd10ff670" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/834ecb25-e44e-4765-9b0c-de4c2252ae5d" /> |
-| - Minimal fill area, preserving finer details.<br> - Might leave small artifacts where hair was removed. | - Balanced fill area with minimal artifacts. | - Larger fill area, resulting in smoother transitions.<br> - Potentially loses some subtle lesion details. |
+| - Small fill area, keeping smaller details. <br> - May leave tiny spots where hair was removed. | - A good balance; fills the area while keeping details. | - Bigger fill area for smoother results. <br> - Might lose some fine lesion details. |
+
 
 
 
