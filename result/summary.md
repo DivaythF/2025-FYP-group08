@@ -1,4 +1,4 @@
-# Projects in Data Science (2025)
+![image](https://github.com/user-attachments/assets/74bbf5df-842a-4e69-a015-592d85610e94)# Projects in Data Science (2025)
 
 # 1. Exploration of the Data/ Summary of the Data:
 
@@ -99,6 +99,13 @@ For checking different effects of the parameters, we chose the picture img_0918 
 | <img width="192" alt="image" src="https://github.com/user-attachments/assets/7373eb6e-d9c4-4d14-b3f5-1069aeed0790" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/d67a49d0-517f-4fe8-8a2a-91566d45b097" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/781fe832-cc64-47af-9f06-79b12684b922" /> |
 | - More aggressive hair detection (captures faint hair, but almost no white hair). <br> - Results in a noisier image with loss of lesion details. | - Balanced hair removal with minimal artifacts. | - Less aggressive detection; some gray hair remains, preserving more lesion details. |
 
+
+### Radius
+
+| **Radius 1**                                   | **Radius 3 (original)**                                   | **Radius 5**                                   |
+|:-------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------:|
+| <img width="192" alt="image" src="https://github.com/user-attachments/assets/55348ff6-770a-4bb4-bc77-d16ce98a7212" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/f4ebe0b6-ff83-4a18-b116-2f4fd10ff670" /> | <img width="192" alt="image" src="https://github.com/user-attachments/assets/834ecb25-e44e-4765-9b0c-de4c2252ae5d" /> |
+| - Minimal fill area, preserving finer details.<br> - Might leave small artifacts where hair was removed. | - Balanced fill area with minimal artifacts. | - Larger fill area, resulting in smoother transitions.<br> - Potentially loses some subtle lesion details. |
 
 
 
